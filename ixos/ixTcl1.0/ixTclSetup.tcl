@@ -61,11 +61,11 @@ if [isWindows] {
 		exitOld $exitStat
 	}
 	# rename the system after with our after so that we can task switch for Windows only
-    if {[info commands after] != ""} {
-        if {[info commands originalAfter] == ""} {
-            rename after originalAfter
-        }
-    }
+    #if {[info commands after] != ""} {
+    #    if {[info commands originalAfter] == ""} {
+    #        rename after originalAfter
+    #    }
+    #}
 }
 
 
